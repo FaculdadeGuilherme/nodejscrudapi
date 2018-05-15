@@ -123,7 +123,7 @@ router.route('/produtos')
     });
 
 //Vinculo da app com o motor de rotas
-//Definindo uma rota padrão para as minhas apis
+//Definindo uma rota padrão para as minhas apiss
 app.use('/api', router);
 
 app.listen(port);
